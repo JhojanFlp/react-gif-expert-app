@@ -13,7 +13,7 @@ const Gif = ({ id, title, url }) => {
 Gif.propTypes = {
   id: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
-  title: PropTypes.string,
+  title: PropTypes.string.isRequired,
 }
 
 export default Gif

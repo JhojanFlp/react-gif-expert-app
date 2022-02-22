@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in Grid should render component 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Kimetsu
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="grid"
+  />
+</Fragment>
+`;
+
+exports[`Test in Grid should render component with gifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Kimetsu
+  </h3>
+  <div
+    className="grid"
+  >
+    <Gif
+      id="1"
+      key="1"
+      title="Título"
+      url="https://example.com/gif.gif"
+    />
+  </div>
+</Fragment>
+`;

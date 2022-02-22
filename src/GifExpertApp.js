@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import AddCategory from './components/AddCategory';
 import Grid from './components/Grid';
 
-const GifExpertApp = props => {
-  const [categories, setCategories] = useState(['Kimetsu']);
+const GifExpertApp = ({ defaultCategories = []}) => {
+  const [categories, setCategories] = useState(defaultCategories);
 
   const addCategory = (category = '') => {
     if (!category) return

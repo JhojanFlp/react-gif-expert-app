@@ -5,7 +5,7 @@ const AddCategory = ({ addCategory }) => {
   const [value, setValue] = useState('');
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (value.trim().length >= 5) {
+    if (value.trim().length >= 2) {
       addCategory(value);
       setValue('');
     }
